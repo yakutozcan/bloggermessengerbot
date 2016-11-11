@@ -108,8 +108,8 @@ function sendGenericMessage(sender) {
         }
     })
 }
+//ben tcp ile nesneler ile haberleştirmiştim :)
 function sendTextMessageImage(textTCP){
-    client.write(textTCP+"\n");
     if(textTCP.indexOf("LambaAc") > -1){
         sendTextMessage(sender,"Lamba Açılıyor..")
     }else if(textTCP.indexOf("LambaKapat") > -1) {
