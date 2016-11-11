@@ -78,7 +78,7 @@ function sendGenericMessage(sender) {
                 "elements": [{
                     "title": "Lamba",
                     "subtitle": "Lamba açılsın mı?",
-                    "image_url": "http://puu.sh/oQjdh/48164b1e4c.png",
+                    "image_url": "https://cdn2.iconfinder.com/data/icons/pictograms-vol-1/400/lamp-128.png",
                     "buttons": [{
                         "type": "postback",
                         "title": "Lamba Aç",
